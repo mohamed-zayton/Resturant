@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Resturant.jnlp">
+  <information>
+    <title>Resturant</title>
+    <vendor>EGYPT-LAPTOP</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <jfx:javafx-runtime version="2.2+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+  </resources>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Resturant.jar" size="3765922" download="eager" />
+    <jar href="lib/commons-lang-2.6.jar" size="284220" download="eager" />
+    <jar href="lib/commons-logging-1.1.1.jar" size="60031" download="eager" />
+    <jar href="lib/hsqldb.jar" size="1467326" download="eager" />
+    <jar href="lib/jackcess-2.1.2.jar" size="816827" download="eager" />
+    <jar href="lib/mysql-connector-java-5.1.23-bin.jar" size="827921" download="eager" />
+    <jar href="lib/ucanaccess-3.0.2.jar" size="324224" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Resturant" >
+    <param name="requiredFXVersion" value="2.2+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="resturant.Resturant"  name="Resturant" />
+  <update check="always"/>
+</jnlp>
